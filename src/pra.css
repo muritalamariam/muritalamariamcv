@@ -1,0 +1,15 @@
+.na{
+    margin: 70px;
+}
+.slide{
+    background-image: radial-gradient(yellow, black);
+    color: aliceblue;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+.slide:hover{
+    transform:scale(1.3);
+    z-index: 2;
+}
